@@ -37,4 +37,23 @@
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.subtitle-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-subtitle-section {
+    display: flex;
+    flex-direction: row;
 }
