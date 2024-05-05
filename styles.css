@@ -12,7 +12,7 @@
 }
 
 .image-section {
-    height: 33.33vh; /* 1/3 of the viewport height */
+    height: 40vh; /* 1/3 of the viewport height */
     width: 100%;
     background-image: url('./assets/images/background-pattern-desktop.svg'); /* Replace 'your-image.jpg' with the path to your image */
     background-size: cover;
@@ -21,7 +21,7 @@
 }
 
 .content-section {
-    height: 66.67vh; /* 2/3 of the viewport height */
+    height: 60vh; /* 2/3 of the viewport height */
     width: 100%;
     background-color: var(--light-pink); /* White background color */
     z-index: 0;
@@ -30,10 +30,11 @@
 .card {
     z-index: 1;
     position: absolute;
-    height: 200px;
-    width: 200px;
-    background-color: black;
-    top: 50%;
+    height: 70vh;
+    width: 35vw;
+    background-color: var(--white);
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 20px;
 }
