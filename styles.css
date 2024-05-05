@@ -47,16 +47,22 @@
 .title-container {
     display: flex;
     flex-direction: row;
+    padding-left: 50px;
+    padding-top: 30px;
 }
 
 .subtitle-container {
     display: flex;
     flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-bottom: 1px solid var(--light-pink); /* Set top border only */
 }
 
 .top-subtitle-section {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 p {
@@ -64,6 +70,12 @@ p {
     color: var(--grayish-purple);
 }
 
-h1, h3 {
+h3 {
     color: var(--dark-purple);
+}
+
+h1 {
+    color: var(--dark-purple);
+    font-size: 60px;
+    padding-left: 30px;
 }
