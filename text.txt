@@ -1,12 +1,4 @@
-  FAQs
-
-  
-
-  
-
-  Is Frontend Mentor free?
-
-  
+  FAQs  
 
   Can I use Frontend Mentor projects in my portfolio?
 

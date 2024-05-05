@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
     height: 100%;
+    font-family: "Work Sans", sans-serif;
 }
 
 .image-section {
@@ -56,4 +57,13 @@
 .top-subtitle-section {
     display: flex;
     flex-direction: row;
+}
+
+p {
+    font-size: 16;
+    color: var(--grayish-purple);
+}
+
+h1, h3 {
+    color: var(--dark-purple);
 }
