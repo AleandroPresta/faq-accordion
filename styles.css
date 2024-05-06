@@ -29,53 +29,39 @@ body, html {
 }
 
 .card {
-  position: relative; /* added position: relative */
-  max-height: 150vh;
+  padding: 2rem;
   width: 35%;
   background-color: var(--white);
   border-radius: 20px;
-  padding: 2rem; /* added padding */
   transform: translate(-50%, -50%);
   margin-left: 50%;
+  margin-top: 5%;
   z-index: 1;
 }
 
 .title-container {
   display: flex;
   flex-direction: row;
-  align-items: center; /* added align-items: center */
-  padding-left: 2rem; /* adjusted padding */
-  padding-top: 1.5rem; /* added padding-top */
+  align-items: center;
+  padding-left: 2rem;
+  padding-top: 1.5rem;
 }
 
 .subtitle-container {
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid var(--light-pink);
+  flex: 1; /* added flex property */
 }
 
 .top-subtitle-section {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center; /* added align-items: center */
+  align-items: center;
 }
 
 p {
   color: var(--grayish-purple);
-  margin-bottom: 1rem; /* added margin-bottom */
-}
-
-/* added media queries */
-@media (max-width: 768px) {
- .card {
-    width: 50%;
-  }
-}
-
-@media (max-width: 480px) {
-
- .card {
-    width: 70%;
-  }
+  margin-bottom: 1rem;
 }
